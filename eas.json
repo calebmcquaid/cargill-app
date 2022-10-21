@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 1.1.1",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "env": {
+        "FIREBASE_API_KEY": "AIzaSyB6kK3-rDEzqbEEpYL3VlmnWr0W6CbwC98",
+        "FIREBASE_AUTH_DOMAIN": "robotic-vista-330203.firebaseapp.com",
+        "FIREBASE_PROJECT_ID": "robotic-vista-330203",
+        "FIREBASE_STORAGE_BUCKET": "robotic-vista-330203.appspot.com",
+        "FIREBASE_MESSAGING_SENDER_ID": "66061329547",
+        "FIREBASE_APP_ID": "1:66061329547:web:0d4b1872433df84f5b208e"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
